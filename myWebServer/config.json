@@ -1,0 +1,32 @@
+{
+    "webserver":
+    {
+        "port":1316,
+        "opt_linger":true,
+        "trig_mode":3,
+        "time_out_ms":500
+    },
+    "mysql":
+    {
+        "ip":"localhost",
+        "user":"root",
+        "passwd":"admin",
+        "db_name":"webserver",
+        "port":3306,
+        "max_conn":1024,
+        "min_conn":10,
+        "time_out":1000,
+        "max_Idle_time":5000
+    },
+    "thread":
+    {
+        "minThreadNum":6,
+        "maxThreadNum":20
+    },
+    "log":
+    {
+        "open_log":true,
+        "log_level":1, 
+        "log_que_size":1024
+    }
+}
